@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -16,13 +17,13 @@
             <div class="logo">
             </div>
             <form class="header-search">
-              <input class="search" type="search" name="search" id="search" placeholder="Поиск:">
+              <input id="search" class="search" type="search" name="search" placeholder="Поиск:">
               <label for="search"></label>
             </form>
-            <a class="bookmark" href="#">
+            <a class="bookmark bookmark-another" href="#">
               Закладки
           	</a>
-            <a class="bar-link" href="#">
+            <a class="bar-link bar-link-another" href="#">
               Корзина
           	</a>
             <a class="bar-link link-order" href="#">Оформить заказ</a>
@@ -49,10 +50,10 @@
               <a class="user-btn user-nick" href="#">Равшан Джамшутович</a>
               <a class="user-btn log-out"></a>
             </div>
-              <a href="#" class="my-order">Мои Заказы</a>
+              <a href="#" class="my-personal-area">Мои Заказы</a>
               <a href="#" class="my-personal-area">Личный кабинет</a>
           </div>
-       	</div>
+
 
 
                 <!--Навигация (нижняя часть Шапки)-->
@@ -81,7 +82,7 @@
           		</li>
          		</ul>
 				  </nav>
-
+        </div>
       </header>
 
 
@@ -93,7 +94,7 @@
 
            <!-- верхняя секция -->
           <div class="breadcrumbs">
-    				<a href="#"><span class="icon icon-home"></span></a>
+    				<a href="#"></a>
     				<a href="#">Каталог</a>
     				<a href="#">Инструмент</a>
     				<a>Перфораторы</a>
@@ -105,7 +106,7 @@
           <div class="main-content clearfix">
 
             <!-- фильтры (слева) -->
-            <form action="https://echo.htmlacademy.ru" method="post">
+            <form class="filter" action="https://echo.htmlacademy.ru" method="post">
               <div class="filter-title">Фильтр:</div>
   						<div class="range-filter">
   							<div class="range-filter-title">Цена:</div>
@@ -131,15 +132,15 @@
 
               <div class="manufacturer-filter">
           			<h2 class="sub-title">Производители:</h2>
-          			<input type="checkbox" id="manufacturer-1" name="bosch" checked>
+          			<input id="manufacturer-1" type="checkbox" name="bosch" checked>
   							<label class="filter-label" for="manufacturer-1">Bosch</label>
-  							<input type="checkbox" id="manufacturer-2" name="interscol">
+  							<input id="manufacturer-2" type="checkbox" name="interscol">
   							<label class="filter-label" for="manufacturer-2">Интерскол</label>
-  							<input type="checkbox" id="manufacturer-3" name="makita" checked>
+  							<input id="manufacturer-3" type="checkbox" name="makita" checked>
   							<label class="filter-label" for="manufacturer-3">Makita</label>
-  							<input type="checkbox" id="manufacturer-4" name="dewalt">
+  							<input id="manufacturer-4" type="checkbox" name="dewalt">
   							<label class="filter-label" for="manufacturer-4">Dewalt</label>
-  							<input type="checkbox" id="manufacturer-5" name="hitachi">
+  							<input id="manufacturer-5" type="checkbox" name="hitachi">
   							<label class="filter-label" for="manufacturer-5">Hitachi</label>
           		</div>
 
@@ -147,9 +148,9 @@
 
           		<div class="power-filter">
           			<h2 class="sub-title">Питание:</h2>
-          			<input type="radio" id="power-1" name="power" checked>
+          			<input id="power-1" type="radio" name="power" checked>
           			<label class="filter-label" for="power-1">Аккумуляторные</label>
-                <input type="radio" id="power-2" name="power">
+                <input id="power-2" type="radio" name="power">
                 <label class="filter-label" for="power-2">Сетевые</label>
               </div>
               <button type="submit" class="btn">Показать</button>
@@ -180,7 +181,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-                <img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+                <img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
 							  <div class="item-title">Перфоратор BOSCH BFG 3000</div>
 							  <div class="old-price">22500 р.</div>
 							  <a class="price">15500 р.</a>
@@ -191,7 +192,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 6000">
+  							<img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
   							<div class="item-title">Перфоратор BOSCH BFG 6000</div>
   							<div class="old-price">30500 р.</div>
   							<a class="price">25500 р.</a>
@@ -202,7 +203,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+  							<img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
   							<div class="item-title">Перфоратор BOSCH BFG 2000</div>
 
   							<a class="price">12500 р.</a>
@@ -213,7 +214,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112"  alt="Перфоратор BOSCH BFG 3000">
+  							<img src="img/bfg-3000.jpg" width="127" height="112"  alt="Перфоратор BOSCH BFG 3000">
   							<div class="item-title">Перфоратор BOSCH BFG 3000</div>
   							<div class="old-price">22500 р.</div>
   							<a class="price">15500 р.</a>
@@ -224,7 +225,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112"  alt="Перфоратор BOSCH BFG 6000">
+  							<img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
   							<div class="item-title">Перфоратор BOSCH BFG 6000</div>
   							<div class="old-price">30500 р.</div>
   							<a class="price">25500 р.</a>
@@ -235,7 +236,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+  							<img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
   							<div class="item-title">Перфоратор BOSCH BFG 2000</div>
 
   							<a class="price">12500 р.</a>
@@ -246,7 +247,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+  							<img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
   							<div class="item-title">Перфоратор BOSCH BFG 3000</div>
   							<div class="old-price">22500 р.</div>
   							<a class="price">15500 р.</a>
@@ -257,7 +258,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112" alt="Перфоратор BOSCH BFG 6000">
+  							<img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
   							<div class="item-title">Перфоратор BOSCH BFG 6000</div>
   							<div class="old-price">30500 р.</div>
   							<a class="price">25500 р.</a>
@@ -268,7 +269,7 @@
                   <a class="buy"></a>
                   <a class="bookmark"></a>
                 </div>
-  							<img src="img" width="127" height="112"  alt="Перфоратор BOSCH BFG 2000" >
+  							<img src="img/bfg-2000.jpg" width="127" height="112"  alt="Перфоратор BOSCH BFG 2000" >
   							<div class="item-title">Перфоратор BOSCH BFG 2000</div>
 
   							<a class="price">12500 р.</a>
@@ -380,6 +381,15 @@
 	        </div>
         </div>
 		  </footer>
+
+      <div class="modal-content-cart-plus">
+        <div class="close">x</div>
+        <div class="product-add">Товар добавлен в корзину!</div>
+        <div class="button-area">
+          <button type="submit" class="btn order-btn">Оформить заказ</button>
+          <button class="btn continue-btn">Продолжить покупки</button>
+        </div>
+      </div>
 
   </body>
 </html>
