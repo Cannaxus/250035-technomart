@@ -1,0 +1,433 @@
+body {
+  font-family: Cuprum, PT Sans, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.sub-title {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------
+----------------------Шапка------------------------
+------------------------------------------------- */
+
+
+header {
+  width: 100%;
+  min-height: 320px;
+  background-color: #f1f5f7;
+  margin: auto;
+}
+
+.header-top {
+  background-color: #293449;
+}
+.logo {
+  float: left;
+  width: 220px;
+  height: 42px;
+  background-color: #ee3643;
+  /*----- бокс сайзинг: 5px solid #b52933; -----*/
+}
+
+.header-top input {
+  width: 270px;
+  float: left;
+}
+
+.header-top a {
+  display: inline-block;
+  background-color: #293449;
+  width: 150px;
+  height: 42px;
+  margin-right: -4px;
+}
+.header-top a:last-child {
+  background-color: #63a63e;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+.header-info {
+  width: 300px;
+  height: 158px;
+  float: left;
+  background-color: #dcdcdc;
+  margin-right: 20px;
+}
+
+.header-contacts {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+  height: 158px;
+  background-color: #dcdcdc;
+}
+.header-phone {
+  width: 264px;
+  height: 39px;
+  border: 3px solid white;
+}
+
+.header-user-block{
+ float: right;
+ width: 300px;
+ height: 158px;
+ background-color: #dcdcdc;
+ }
+ .user-profile .user-nick { /*-- Равшан Джамшутович --*/
+  display: block;
+  width: 255px;
+  height: 45px;
+  background-color: white;
+  float: left;
+ }
+ .user-profile .log-out { /*-- logout --*/
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  float: left;
+ }
+
+.user-block a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background-color: white;
+}
+.user-block a:first-child {
+  margin-left: 16px;
+  margin-right: 10px;
+}
+.user-block a:last-child {
+  width: 150px;
+}
+
+.main-nav {
+   clear: both;
+   width: 940px;
+   height: 55px;
+   background-color: #32425c;
+   border-bottom: 5px solid #293449;
+ }
+
+ .main-nav li {
+   display: inline-block;
+ }
+
+
+ /*-------------------------------------------------------
+ --------------------------Main---------------------------
+ --------------------------------------------------------*/
+
+.promo {
+  width: 940px;
+  min-height: 400px;
+  margin-bottom: 52px;
+  margin-top: 59px;
+}
+
+.promo-item {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 300px;
+  min-height: 120px;
+  float: left;
+}
+
+.materials {
+  background-color: #f6b22d;
+}
+.instruments {
+  background-color: #4aafde;
+
+}
+.technic {
+  background-color: #cc79d1;
+  margin-right: 0px;
+}
+/*------------слайдер-----------*/
+.promo-slider {
+  width: 620px;
+  min-height: 260px;
+  float: left;
+  clear: both;
+  background-color: #c8c8c8;
+  margin-right: 20px;
+}
+/*---------конец слайдера-------*/
+.discount {
+  background-color: #85d179;
+  margin-right: 0px;
+
+}
+.delivery {
+  background-color: #f6b22d;
+  margin-right: 0px;
+}
+
+
+
+.popular {
+  display: inline-block;
+  width: 940px;
+  min-height: 88px;
+  background-color: #f7f3ec;
+  margin-bottom: 20px;
+}
+
+/*------Товары------*/
+.items-product {
+  width: 940px;
+  min-height: 358px;
+}
+
+article {
+  display: inline-block;
+  width: 218px;
+  min-height: 316px;
+  border: 1px solid #e5e5e5;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 20px;
+}
+.items-product article:nth-child(4n) {
+  margin-right: 0px;
+}
+
+
+
+/*-----Бренды-----*/
+.all-brands {
+  width: 940px;
+  height: 416px;
+}
+
+.all-brands a {
+display: inline-block;
+width: 218px;
+height: 143px;
+border: 1px solid #e5e5e5;
+margin-right: 20px;
+margin-bottom: 20px;
+float: left;
+}
+.all-brands a:nth-child(4n) {
+  margin-right: 0px;
+}
+
+/*-----Сервис-----*/
+.service {
+  width: 100%;
+  height: 522px;
+  background-color: #f2f6f8;
+  margin: auto;
+}
+.service-slides {
+  width: 620px;
+  float: right;
+}
+
+.services-slider {
+  width: 240px;
+  height: 182px;
+  background-color: #32425c;
+  float: left;
+  margin-right: 80px;
+}
+
+/*-----О Компании-----*/
+.company {
+  width: 940px;
+  height: 456px;
+  padding-top: 80px;
+}
+.company .company-column:first-child {
+  width: 620px;
+  background-color: #dcdcdc;
+  float: left;
+  margin-right: 20px;
+}
+.company .company-column:last-child {
+  width: 300px;
+  background-color: #dcdcdc;
+  float: right;
+}
+
+/*---------------Catalog Filter------------*/
+.breadcrumbs {
+  height: 59px;
+}
+h1 {
+display: block;
+height: 89px;
+background-color: #f2f6f8;
+}
+.main-filter {
+  width: 220px;
+  min-height: 800px;
+  float: left;
+  margin-right: 20px;
+}
+.filter-title {
+  width: 220px;
+  height: 38px;
+  background-color: #f7f3ec;
+
+}
+.range-filter-title {
+  height: 55px;
+}
+.range-controls {
+  height: 80px;
+  background-color: #f7f3ec;
+  margin-bottom: 9px;
+}
+.price_controls input {
+  display: inline-block;
+  width: 96px;
+  height: 38px;
+  background-color: #f7f3ec;
+  margin-bottom: 26px;
+}
+
+.manufacturer-filter {
+  min-height: 262px;
+  border-top: 1px solid #e5e5e5;
+}
+.manufacturer-filter input {
+  display: block;
+}
+
+.power-filter {
+  min-height: 236px;
+  border-top: 1px solid #e5e5e5;
+}
+.power-filter input {
+  display: block;
+}
+
+/*------- item column (catalog) -------*/
+.items-column {
+  width: 700 px;
+}
+
+.sort {
+  width: 700px;
+  height: 38px;
+  background-color: #f7f3ec;
+  float: left;
+  margin-bottom: 20px;
+}
+.sort-choose {
+  display: inline-block;
+  width: 460px;
+}
+.catalog {
+  min-height: 1000px;
+}
+.catalog article:nth-child(3n) {
+  margin-right: 0px;
+}
+
+
+
+.paginator li{
+  display: inline-block;
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 60px;
+}
+
+
+.catalog-info {
+  width: auto;
+  background-color: #f2f6f8;
+}
+/*--------------------------------------
+-------------------Подвал---------------
+---------------------------------------*/
+.footer-first {
+  height: 300px;
+}
+
+.footer-up {
+  width: 100%;
+  margin: auto;
+  height: 193px;
+  background-color: #32425c;
+}
+.footer-up .logo {
+  margin-bottom: 30px;
+  float:none;
+}
+
+.footer-right {
+  width: 570px;
+  float: right;
+}
+.footer-left {
+  width: 370px;
+  float: left;
+}
+
+.footer-menu li {
+  display: inline-block;
+}
+.footer-submenu li {
+  display: inline-block;
+}
+
+
+
+.footer-bottom {
+  height: 107px;
+  background-color: #293449;
+}
+.footer-copyright {
+  width: 400px;
+  float: left;
+}
+.footer-social {
+  width: 240px;
+  float: left;
+}
+.feedback {
+  width: 150px;
+  float: left;
+}
+.web-copyright {
+  width: 150px;
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
