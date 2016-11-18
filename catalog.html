@@ -21,7 +21,7 @@
             </div>
             <form class="header-search">
               <input id="search" class="search" type="search" name="search" placeholder="Поиск:">
-              <label for="search"></label>
+              <label class="search-label" for="search"></label>
             </form>
             <a class="bookmark bookmark-another" href="#">
               Закладки: 0
@@ -53,7 +53,8 @@
               <a class="user-btn user-nick" href="#">Равшан Джамшутович</a>
               <a class="user-btn log-out"></a>
             </div>
-              <a href="#" class="my-personal-area">Мои Заказы</a>
+              <a href="#" class="my-personal-area">Мои заказы</a>
+              <a class="circle"></a>
               <a href="#" class="my-personal-area">Личный кабинет</a>
           </div>
 
@@ -95,7 +96,7 @@
         <div class="container">
 
 
-           <!-- верхняя секция -->
+           <!-- Хлебные крошки -->
           <div class="breadcrumbs">
     				<a href="#"></a>
     				<a href="#">Каталог</a>
@@ -118,21 +119,21 @@
                   <div class="scale">
                     <div class="bar"></div>
                   </div>
-                  <div class="toggle min_toggle"></div>
-                  <div class="toggle max_toggle"></div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
                 </div>
-                <div class="price_controls">
+                <div class="price-controls">
                   <label class="min-price">
                     <input name="min-price" type="text" value="0">
                   </label>
-                  <span class="separator">_</span>
+                  <span class="separator">—</span>
                   <label class="max-price">
-                    <input name="max-price" type="text" value="30 000">
+                    <input name="max-price" type="text" value="30000">
                   </label>
                 </div>
               </div>
 
-              <!-- полоска (бордером через css)-->
+              <!-- полоска -->
 
               <div class="manufacturer-filter">
           			<h2 class="sub-title">Производители:</h2>
@@ -148,7 +149,7 @@
   							<label class="filter-label" for="manufacturer-5">Hitachi</label>
           		</div>
 
-             <!-- полоска (бордером через css)-->
+             <!-- полоска -->
 
           		<div class="power-filter">
           			<h2 class="sub-title">Питание:</h2>
@@ -157,7 +158,7 @@
                 <input id="power-2" type="radio" name="power">
                 <label class="filter-label" for="power-2">Сетевые</label>
               </div>
-              <button type="submit" class="btn filter-submit">Показать</button>
+              <button type="submit" class="filter-submit">Показать</button>
   					</form>
   				</div>
 
@@ -168,13 +169,13 @@
           <div class="items-column">
             <div class="sort clearfix">
 						  <span>Сортировка:</span>
-              <div class="sort-choose">
-    						<a class="sort-by" href="#">По цене</a>
-    						<a class="sort-by" href="#">По типу</a>
-    						<a class="sort-by" href="#">По функционалу</a>
-    						<a class="increase-sort" href="#"></a>
-    						<a class="decrease-sort" href="#"></a>
-              </div>
+                <div class="sort-item">
+      						<a class="sort-price" href="#">По цене</a>
+      						<a class="sort-type" href="#">По типу</a>
+      						<a class="sort-func" href="#">По функционалу</a>
+      						<a class="increase-sort" href="#"></a>
+      						<a class="decrease-sort" href="#"></a>
+                </div>
 					  </div>
 
 
