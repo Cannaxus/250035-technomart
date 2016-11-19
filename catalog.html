@@ -70,7 +70,7 @@
             			<a href="#">Компания</a>
           		</li>
           		<li>
-            			<a href="#">Каталог</a>
+            			<a href="catalog.html">Каталог</a>
           		</li>
           		<li>
             			<a href="#">Новости</a>
@@ -398,13 +398,39 @@
     </footer>
 
       <div class="modal-content-cart-plus">
-        <div class="close">x</div>
+        <div class="close close-plus">x</div>
         <div class="product-add">Товар добавлен в корзину!</div>
         <div class="button-area">
           <button type="submit" class="btn order-btn">Оформить заказ</button>
           <button class="btn continue-btn">Продолжить покупки</button>
         </div>
       </div>
+
+<script src="js/popup.js"></script>
+
+<!-- 
+<script>
+
+var link_buy = document.querySelectorAll(".buy");
+var popup_plus = document.querySelector(".modal-content-cart-plus");
+var close_plus = document.querySelector(".close-plus");
+for(i=0;i<link_buy.length;i++)
+
+
+  link_buy[i].addEventListener("click",function(e) {
+    e.preventDefault(),
+    popup_plus.classList.add("modal-go")
+  });
+
+  close_plus.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup_plus.classList.remove("modal-go");
+  });
+
+
+</script>
+ -->
+
 
   </body>
 </html>

@@ -73,7 +73,7 @@
           			<a href="#">Компания</a>
         		</li>
         		<li>
-          			<a href="#">Каталог</a>
+          			<a href="catalog.html">Каталог</a>
         		</li>
         		<li>
           			<a href="#">Новости</a>
@@ -324,8 +324,8 @@
 				    <div class="sub-title">Контакты</div>
 				    <p class="first-info">Вы можете забрать товар сами,<br>
                 заехав в наш офис:</p>
-						  <a class="btn-map" href="#"><img src="img/google-map-index.jpg" alt="Большая Конюшенная ул., 19" width="300" height="158"></a>
-					  <a href="#" class="btn btn-company">Заблудились? Напишите нам!</a>
+						  <a class="btn-map" href="#"><img class="js-map" src="img/google-map-index.jpg" alt="Большая Конюшенная ул., 19" width="300" height="158"></a>
+					  <a href="#" class="btn btn-company js-btn">Заблудились? Напишите нам!</a>
 			    </div>
         </div>
 			</section>
@@ -421,11 +421,13 @@
     <!-- Модальные окна -->
     <!-- Карта -->
     <div class="modal-content-map">
-    <img class="google-map1" src="img/google-map1.jpg" width="940" height="446" alt="google-map1">
-			<div class="close">x</div>
+      <img class="google-map1" src="img/google-map1.jpg" width="940" height="446" alt="google-map1">
+      <div class="close close-map">x</div>
     </div>
+
+
   	<div class="modal-content-write-us">
-  		<div class="close"></div>
+  		<div class="close close-write"></div>
   		<form class="write-us" action="/echo" method="post">
   			<div class="input-area">
   				<div class="name-block">
@@ -441,9 +443,51 @@
   			</div>
   			<div class="button-area">
   				<button type="submit" class="btn send-btn">Отправить</button>
-  			</div>
+  		  </div>
     	</form>
-    </div>
+  </div>
+    
+
+<script src="js/popup.js"></script>
+
+<!-- 
+<script>
+
+  var link = document.querySelector(".js-btn");
+  var link_map = document.querySelector(".js-map");
+  var popup = document.querySelector(".modal-content-write-us");
+  var popup_map = document.querySelector(".modal-content-map");
+  var close = document.querySelector(".close-write");
+  var close_map = document.querySelector(".close-map");
+
+
+  link.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup.classList.add("modal-go");
+  });
+
+  close.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup.classList.remove("modal-go");
+  });
+
+
+  link_map.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup_map.classList.add("modal-go");
+  });
+
+  close_map.addEventListener("click", function(event) {
+    event.preventDefault();
+    popup_map.classList.remove("modal-go");
+  });
+
+  </script> 
+  -->
+
+
+
+
 
 
   </body>
