@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/css.min.css" rel="stylesheet">
   </head>
@@ -17,7 +17,7 @@
     		<div class="header-top">
           <div class="container">
             <div class="logo">
-              <a href="index.html"><img src="img/logo.png" width="220" height="42" alt="logo"></a>
+              <img src="img/logo.png" width="220" height="42" alt="logo">
             </div>
             <form class="header-search">
               <input id="search" class="search" type="search" name="search" placeholder="Поиск:">
@@ -417,6 +417,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1479655529627" width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
+    <!-- write-us -->
   	<div class="modal-content-write-us">
   		<div class="close close-write"></div>
   		<form class="write-us" action="/echo" method="post">
@@ -437,7 +438,19 @@
   		  </div>
     	</form>
   </div>
-    
+
+    <!-- plus -->
+  <div class="modal-content-cart-plus">
+        <div class="close close-plus">x</div>
+        <div class="product-add">Товар добавлен в корзину!</div>
+        <div class="button-area">
+          <button type="submit" class="btn order-btn">Оформить заказ</button>
+          <button class="btn continue-btn">Продолжить покупки</button>
+        </div>
+      </div>
+
+
+
 <script src="js/index.min.js"></script>
 
   </body>
