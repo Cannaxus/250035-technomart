@@ -444,19 +444,18 @@ font-size: 0px;
 /* fs1 - 0 */
 }
 .main-nav ul {
+display: flex;
 padding: 0px;
 margin: 0px;
 list-style: none;
 }
 .main-nav li {
+flex-grow: 1;
 display: inline-block;
 vertical-align: top;
 font-size: 17px;
 /* fs1 - 17 */
 line-height: 17px;
-}
-.main-nav li:first-child {
-margin-left: 20px;
 }
 .main-nav a {
 display: block;
