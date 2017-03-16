@@ -27,7 +27,7 @@
       <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" width="270" alt="Страница каталог товаров"></a>
     </td>
     <td>
-      <a href="https://assets.htmlacademy.ru/certificates/intensive/29/250035.pdf" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="270" alt="Страница каталог товаров"></a>
+      <a href="https://assets.htmlacademy.ru/certificates/intensive/29/250035.pdf" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="270" alt="Сертификат"></a>
     </td>
   </tr>
 </table>
