@@ -15,7 +15,7 @@
   <tr>
   <th><a href="https://cannaxus.github.io/250035-technomart/index.html">Главная страница</a></th>
   <th><a href="https://cannaxus.github.io/250035-technomart/catalog.html">Каталог товаров</a></th>
-  <th><a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg">Сертификат</a></th>
+  <th><a href="https://assets.htmlacademy.ru/certificates/intensive/29/250035.pdf">Сертификат</a></th>
   </tr>
   <tr valign="top">
     <td>
@@ -27,7 +27,7 @@
       <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" width="270" alt="Страница каталог товаров"></a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="270" alt="Страница каталог товаров"></a>
+      <a href="https://assets.htmlacademy.ru/certificates/intensive/29/250035.pdf" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="270" alt="Страница каталог товаров"></a>
     </td>
   </tr>
 </table>
