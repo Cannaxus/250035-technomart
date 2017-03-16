@@ -20,14 +20,14 @@
   <tr valign="top">
     <td>
       <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_index.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_index.jpg" width="250" alt="Главная страница">
+        <img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_index.jpg" width="260" alt="Главная страница">
       </a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" width="250" alt="Страница каталог товаров"></a>
+      <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_catalog.jpg" width="260" alt="Страница каталог товаров"></a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="250" alt="Страница каталог товаров"></a>
+      <a href="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Cannaxus/250035-technomart/master/img/preview_sertification.jpg" width="260" alt="Страница каталог товаров"></a>
     </td>
   </tr>
 </table>
