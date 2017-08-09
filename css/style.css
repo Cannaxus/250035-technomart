@@ -231,6 +231,9 @@ width: 940px;
 margin: 0 auto;
 padding: 0 0;
 }
+.main-container {
+	display:inline-block;
+}
 .header-info {
 width: 300px;
 min-height: 113px;
